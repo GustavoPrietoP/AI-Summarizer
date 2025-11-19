@@ -1,0 +1,99 @@
+/* --- Global Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+    background: #f6f7fb;
+    color: #333;
+    padding: 40px;
+}
+
+/* --- Main Container --- */
+.container {
+    max-width: 800px;
+    background: white;
+    margin: auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+/* --- Headers --- */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* --- Textarea --- */
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 6px rgba(59,130,246,0.4);
+}
+
+/* --- Button --- */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #1e60d4;
+}
+
+/* --- Error Message --- */
+.alert.error {
+    background: #ffe1e1;
+    color: #b30000;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* --- AI Summary Box --- */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background: #eef4ff;
+    border-left: 5px solid #3b82f6;
+    border-radius: 8px;
+}
+
+.result h2 {
+    margin-bottom: 10px;
+}
+
+.result p {
+    line-height: 1.6;
+    color: #333;
+}

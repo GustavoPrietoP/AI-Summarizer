@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI Text Summarizer</h1>
+        <p class="subtitle">Powered by Hugging Face • Built with Python & Flask</p>
+
+        <form method="POST">
+            <textarea name="input_text" placeholder="Paste your text here..." required>{{ input_text }}</textarea>
+
+            <button type="submit" class="btn">Summarize</button>
+        </form>
+
+        {% if error %}
+            <div class="alert error">{{ error }}</div>
+        {% endif %}
+
+        {% if summary %}
+            <div class="result">
+                <h2>Summary</h2>
+                <p>{{ summary }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
