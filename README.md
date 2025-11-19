@@ -8,11 +8,11 @@ with **Python**, **Flask**, and the **Hugging Face Inference API**.
 
 ## 🚀 Features
 
--   ✨ Summarize long text into concise, readable summaries\
--   ⚡ Powered by Hugging Face `facebook/bart-large-cnn` model\
--   🌐 Flask backend with clean routing and error handling\
--   🎨 Modern responsive UI with custom CSS\
--   🔑 Secure environment variable support for API keys\
+-   ✨ Summarize long text into concise, readable summaries
+-   ⚡ Powered by Hugging Face `facebook/bart-large-cnn` model
+-   🌐 Flask backend with clean routing and error handling
+-   🎨 Modern responsive UI with custom CSS
+-   🔑 Secure environment variable support for API keys
 -   📦 Easy to deploy on Render, Railway, or Vercel
 
 ------------------------------------------------------------------------
@@ -35,14 +35,16 @@ with **Python**, **Flask**, and the **Hugging Face Inference API**.
 
 ``` bash
 git clone https://github.com/GustavoPrietoP/AI-Summarizer.git
-cd ai-text-summarizer
+cd AI-Summarizer
 ```
 
 ### 2. Create a virtual environment (optional but recommended)
 
 ``` bash
 python3 -m venv venv
+
 source venv/bin/activate       # macOS / Linux
+
 venv\Scripts\activate          # Windows
 ```
 
@@ -82,11 +84,11 @@ Visit:
 
 ## 📌 Technologies Used
 
--   Python 3\
--   Flask\
--   Hugging Face Router Inference API\
--   HTML5\
--   CSS3\
+-   Python 3
+-   Flask
+-   Hugging Face Router Inference API
+-   HTML5
+-   CSS3
 
 ------------------------------------------------------------------------
 
